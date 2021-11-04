@@ -1,6 +1,6 @@
 # 2021 - Borworntat Dendumrongkul
 
-class Notif :
+class Notify :
     _version = "1.0.0"
     _token = ""
     def __init__(self, _token=""):

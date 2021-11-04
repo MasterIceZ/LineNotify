@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: linenotify
+Version: 1.0.0
+Summary: Easy Line-Notify syntax
+Home-page: https://github.com/MasterIceZ/LineNotify
+Author: Borworntat Dendumrongkul
+Author-email: borworntat.d@gmail.com
+License: MIT
+Download-URL: https://github.com/MasterIceZ/LineNotify/archive/v_100.tar.gz
+Keywords: LINE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
