@@ -1,11 +1,11 @@
 import setuptools
 from distutils.core import setup
 setup(
-    name = 'linenotify',
-    packages = ['linenotify'],
+    name = 'linenotif',
+    packages = ['linenotif'],
     version = '1.0.0',
     license = 'MIT',
-    description = 'Easy Line-Notify syntax',
+    description = 'Easy LINE-Notify syntax',
     author = 'Borworntat Dendumrongkul',
     author_email = 'borworntat.d@gmail.com',
     url = 'https://github.com/MasterIceZ/LineNotify',
