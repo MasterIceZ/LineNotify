@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name = 'linenotif',
     packages = ['linenotif'],
-    version = '1.0.5',
+    version = '1.0.6',
     license = 'MIT',
     description = 'Easy LINE-Notify syntax',
     author = 'Borworntat Dendumrongkul',
     author_email = 'borworntat.d@gmail.com',
     url = 'https://github.com/MasterIceZ/LineNotify',
-    download_url = 'https://github.com/MasterIceZ/LineNotify/archive/v_105.tar.gz',
+    download_url = 'https://github.com/MasterIceZ/LineNotify/archive/v_106.tar.gz',
     keywords = ["LINE"],
     install_requires=[
         'requests'

@@ -26,7 +26,15 @@ class Notify :
     def send_message(self, msg):
         payload = { 'message': msg }
         return self.send(payload)
-    
+   
+    def send_picture(self, url):
+        payload = {
+            'message': " ",
+            'imageThumbnail': url,
+            'imageFullsize': url
+        }
+        return self.send(payload)
+
     def send(self, payload, file=None):
         if self._token != "":
             import requests
