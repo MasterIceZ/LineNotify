@@ -15,7 +15,14 @@ class Notify :
             return True
         except:
             return False
-    
+    def send_sticker(self, pack, idx):
+        payload = {
+            'message': " ",
+            'stickerPackageId': pack,
+            'stickerId': idx
+        }
+        return self.send(payload)
+
     def send_message(self, msg):
         payload = { 'message': msg }
         return self.send(payload)
